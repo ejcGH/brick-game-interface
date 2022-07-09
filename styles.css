@@ -1,0 +1,100 @@
+.container-red {
+  display: grid;
+  background-color: red;
+  grid-template-columns: repeat(12, 3fr);
+  grid-template-rows: 25px;
+}
+
+.container-red > div {
+  border: 1px solid;
+}
+
+.container-yellow {
+  display: grid;
+  background-color: yellow;
+  grid-template-columns: repeat(12, 3fr);
+  grid-template-rows: 25px;
+}
+
+.container-yellow > div {
+  border: 1px solid;
+}
+body {
+  box-sizing: border-box;
+  position: relative;
+  padding-top: 20px;
+  margin: 0;
+  border-top: 10px solid grey;
+  border-right: 15px solid grey;
+  border-left: 15px solid grey;
+  height: 500px;
+  background-color: black;
+}
+
+.container-green {
+  display: grid;
+  background-color: green;
+  grid-template-columns: repeat(12, 3fr);
+  grid-template-rows: 25px;
+}
+
+.container-green > div {
+  border: 1px solid;
+}
+
+.container-blue {
+  display: grid;
+  background-color: blue;
+  grid-template-columns: repeat(12, 3fr);
+  grid-template-rows: 25px;
+}
+
+.container-blue > div {
+  border: 1px solid;
+}
+
+.blackhole {
+  background-color: black;
+}
+
+.container {
+  position: relative;
+}
+
+#ball1 {
+  height: 10px;
+  width: 10px;
+  position: fixed;
+  background-color: white;
+  left: 18%;
+  margin: 50px 0 20px 0;
+}
+
+#ball2 {
+  height: 10px;
+  width: 10px;
+  position: fixed;
+  background-color: white;
+  right: 18%;
+  margin: 50px 0 20px;
+}
+
+#ball3 {
+  height: 10px;
+  width: 10px;
+  position: fixed;
+  background-color: white;
+  margin: 230px 0 20px 50px;
+}
+
+#bar {
+  height: 10px;
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  position: fixed;
+  background-color: grey;
+  border-radius: 2px;
+  bottom: 0%;
+  left: 40%;
+}
